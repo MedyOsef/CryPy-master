@@ -95,22 +95,22 @@ clef_entry.place(x=110, y=280)
 
 # """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""(creation des boutons:)""""""""""""""""""""""""""""""""""
 # premier bouton (Chiffrer):
-bout_encrypt = Button(window, text="Chiffrer", font=('Helvetica', 15), bg='#16d9FF', fg='white', command=encrypt)
+bout_encrypt = Button(window, text="Chiffrer", font=('Helvetica', 15), bg='#16d9FF', fg='white',border=0, command=encrypt)
 bout_encrypt.pack(expand=YES)
 bout_encrypt.place(x=800, y=50, width=120, height=43)
 
 # creation de second bouton (Déchiffrer)
-bout_decipher = Button(window, text="Déchiffrer", font=('Helvetica', 15), bg='#16d9FF', fg='white', command=decipher)
+bout_decipher = Button(window, text="Déchiffrer", font=('Helvetica', 15), bg='#16d9FF', fg='white',border=0, command=decipher)
 bout_decipher.pack(expand=YES)
 bout_decipher.place(x=800, y=130, width=120, height=43)
 
 # creation du troisième Bouton (Coller):
-bout_paste = Button(window, text="Coller", font=('Helvetica', 15), bg='#16d9FF', fg='white', command=pa_st)
+bout_paste = Button(window, text="Coller", font=('Helvetica', 15), bg='#16d9FF', fg='white',border=0, command=pa_st)
 bout_paste.pack(expand=YES)
 bout_paste.place(x=600, y=280, width=120, height=43)
 
 # creation de quatrième bouton (Copier):
-bout_copy = Button(window, text='Copier', font=('Helvetica', 15), bg='#16D9FF', fg='white', command=co_py)
+bout_copy = Button(window, text='Copier', font=('Helvetica', 15), bg='#16D9FF', fg='white',border=0, command=co_py)
 bout_copy.pack(expand=YES)
 bout_copy.place(x=755, y=530, width=120, height=43)
 
