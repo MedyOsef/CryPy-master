@@ -15,7 +15,7 @@ print(" ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀       ▀       ▀  
 # """"""""""""""""""""""""""""""""""""""""""""#
 #                                             #
 #                                             #
-#   Ce le Programme sans interface graphique #
+# C'est le Programme sans interface graphique #
 #                                             #
 #                                             #
 #"""""""""""""""""""""""""""""""""""""""""""""#
